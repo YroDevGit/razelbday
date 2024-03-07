@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .span{
+    font-size: 25px;
+    color:white;
+  }
+
+  .textarea{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0,0,0,0.5);
+    
+}
+.textarea textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:white;
+    text-align: left;
+}
